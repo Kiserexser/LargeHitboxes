@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[49,50)"
+license="MIT"
+
+[[mods]]
+modId="largehitboxes"
+version="1.0.0"
+displayName="Large Hitboxes"
+description="3x hitboxes for Forge 1.20.4"
+authors="SWILL"
+
+[[dependencies.largehitboxes]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.4,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.largehitboxes]]
+modId="forge"
+mandatory=true
+versionRange="[49,50)"
+ordering="NONE"
+side="BOTH"
