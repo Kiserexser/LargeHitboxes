@@ -9,6 +9,14 @@ minecraft {
     mappings channel: 'official', version: '1.20.4'
 }
 
+repositories {
+    mavenCentral()
+    maven {
+        name = 'MinecraftForge'
+        url = 'https://maven.minecraftforge.net/'
+    }
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.4-49.1.0'
 }
